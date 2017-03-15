@@ -1,0 +1,360 @@
+ --------------------All_rows-------------------
+
+                                                            Max     Mean  \
+Page total likes                                         139441   123194   
+Type                                                          -        -   
+Category                                                      -        -   
+Post Month                                                    -        -   
+Post Weekday                                                  -        -   
+Post Hour                                                     -        -   
+Paid                                                          -        -   
+Lifetime Post Total Reach                                180480  13903.4   
+Lifetime Post Total Impressions                     1.11028e+06  29585.9   
+Lifetime Engaged Users                                    11452  920.344   
+Lifetime Post Consumers                                   11328  798.772   
+Lifetime Post Consumptions                                19779  1415.13   
+Lifetime Post Impressions by people who have li...  1.10783e+06  16766.4   
+Lifetime Post reach by people who like your Page          51456  6585.49   
+Lifetime People who have liked your Page and en...         4376  609.986   
+comment                                                     372    7.482   
+like                                                       5172  177.946   
+share                                                       790  27.2661   
+Total Interactions                                         6334   212.12   
+
+                                                    Median    Min    Mode  
+Page total likes                                    129600  81370  136393  
+Type                                                     -      -   Photo  
+Category                                                 -      -       1  
+Post Month                                               -      -      10  
+Post Weekday                                             -      -       7  
+Post Hour                                                -      -       3  
+Paid                                                     -      -       0  
+Lifetime Post Total Reach                             5281    238     677  
+Lifetime Post Total Impressions                       9051    570    4372  
+Lifetime Engaged Users                               625.5      9     537  
+Lifetime Post Consumers                              551.5      9     182  
+Lifetime Post Consumptions                             851      9     431  
+Lifetime Post Impressions by people who have li...  6255.5    567    1210  
+Lifetime Post reach by people who like your Page      3417    236     690  
+Lifetime People who have liked your Page and en...     412      9     403  
+comment                                                  3      0       0  
+like                                                   101      0      98  
+share                                                   19      0      13  
+Total Interactions                                   123.5      0       0   
+
+Most popular object in set:
+
+     Page total likes   Type  Category  Post Month  Post Weekday  Post Hour  \
+422            102112  Photo         1           3             1         19   
+
+     Paid  Lifetime Post Total Reach  Lifetime Post Total Impressions  \
+422   0.0                        238                              570   
+
+     Lifetime Engaged Users  Lifetime Post Consumers  \
+422                     143                      142   
+
+     Lifetime Post Consumptions  \
+422                         834   
+
+     Lifetime Post Impressions by people who have liked your Page  \
+422                                                567              
+
+     Lifetime Post reach by people who like your Page  \
+422                                               236   
+
+     Lifetime People who have liked your Page and engaged with your post  \
+422                                                 99                     
+
+     comment  like  share  Total Interactions  \
+422        0   2.0    0.0                   2   
+
+     Lifetime Engaged Users/Lifetime Post Total Reach  
+422                                           0.60084  
+--------------------Photo_rows-------------------
+
+                                                            Max     Mean  \
+Page total likes                                         139441   122354   
+Type                                                          -        -   
+Category                                                      -        -   
+Post Month                                                    -        -   
+Post Weekday                                                  -        -   
+Post Hour                                                     -        -   
+Paid                                                          -        -   
+Lifetime Post Total Reach                                180480  13137.8   
+Lifetime Post Total Impressions                     1.11028e+06  28994.5   
+Lifetime Engaged Users                                    11452  818.946   
+Lifetime Post Consumers                                   11328  690.432   
+Lifetime Post Consumptions                                19779  1299.03   
+Lifetime Post Impressions by people who have li...  1.10783e+06  16422.5   
+Lifetime Post reach by people who like your Page          51456   6059.1   
+Lifetime People who have liked your Page and en...         3430  507.305   
+comment                                                     372  7.49296   
+like                                                       5172  182.612   
+share                                                       790  27.1588   
+Total Interactions                                         6334   216.58   
+
+                                                    Median    Min    Mode  
+Page total likes                                    128032  81370  124940  
+Type                                                     -      -   Photo  
+Category                                                 -      -       1  
+Post Month                                               -      -      10  
+Post Weekday                                             -      -       7  
+Post Hour                                                -      -       3  
+Paid                                                     -      -       0  
+Lifetime Post Total Reach                             4675    238     677  
+Lifetime Post Total Impressions                     8118.5    570    4372  
+Lifetime Engaged Users                               605.5      9     537  
+Lifetime Post Consumers                              528.5      9     298  
+Lifetime Post Consumptions                             827      9     431  
+Lifetime Post Impressions by people who have li...    5498    567    1210  
+Lifetime Post reach by people who like your Page      3110    236     690  
+Lifetime People who have liked your Page and en...     403      9     403  
+comment                                                  3      0       0  
+like                                                   100      0       7  
+share                                                   19      0      14  
+Total Interactions                                     122      0       0   
+
+Most popular object in set:
+
+     Page total likes   Type  Category  Post Month  Post Weekday  Post Hour  \
+422            102112  Photo         1           3             1         19   
+
+     Paid  Lifetime Post Total Reach  Lifetime Post Total Impressions  \
+422   0.0                        238                              570   
+
+     Lifetime Engaged Users  Lifetime Post Consumers  \
+422                     143                      142   
+
+     Lifetime Post Consumptions  \
+422                         834   
+
+     Lifetime Post Impressions by people who have liked your Page  \
+422                                                567              
+
+     Lifetime Post reach by people who like your Page  \
+422                                               236   
+
+     Lifetime People who have liked your Page and engaged with your post  \
+422                                                 99                     
+
+     comment  like  share  Total Interactions  \
+422        0   2.0    0.0                   2   
+
+     Lifetime Engaged Users/Lifetime Post Total Reach  
+422                                           0.60084  
+--------------------Link_rows-------------------
+
+                                                       Max     Mean  Median  \
+Page total likes                                    138895   116363  115396   
+Type                                                     -        -       -   
+Category                                                 -        -       -   
+Post Month                                               -        -       -   
+Post Weekday                                             -        -       -   
+Post Hour                                                -        -       -   
+Paid                                                     -        -       -   
+Lifetime Post Total Reach                            70912  18544.6    7422   
+Lifetime Post Total Impressions                     229733  28725.5    9773   
+Lifetime Engaged Users                                1374  342.818     244   
+Lifetime Post Consumers                               1106  292.682     205   
+Lifetime Post Consumptions                            1345  374.091     290   
+Lifetime Post Impressions by people who have li...   42338  11148.6  9034.5   
+Lifetime Post reach by people who like your Page     27232  6544.36    5039   
+Lifetime People who have liked your Page and en...     788  210.545   161.5   
+comment                                                 15  2.81818     1.5   
+like                                                   379  73.3182      37   
+share                                                   44  12.9091    10.5   
+Total Interactions                                     420  89.0455    52.5   
+
+                                                      Min    Mode  
+Page total likes                                    85979  138353  
+Type                                                    -    Link  
+Category                                                -       1  
+Post Month                                              -      12  
+Post Weekday                                            -       6  
+Post Hour                                               -       3  
+Paid                                                    -       0  
+Lifetime Post Total Reach                            1536       -  
+Lifetime Post Total Impressions                      3094       -  
+Lifetime Engaged Users                                 24      66  
+Lifetime Post Consumers                                23     322  
+Lifetime Post Consumptions                             26       -  
+Lifetime Post Impressions by people who have li...   2307       -  
+Lifetime Post reach by people who like your Page     1180       -  
+Lifetime People who have liked your Page and en...     19       -  
+comment                                                 0       0  
+like                                                    5      12  
+share                                                   0       2  
+Total Interactions                                      6      14   
+
+Most popular object in set:
+
+    Page total likes  Type  Category  Post Month  Post Weekday  Post Hour  \
+49            138353  Link         1          12             2          2   
+
+    Paid  Lifetime Post Total Reach  Lifetime Post Total Impressions  \
+49   0.0                       1536                             3094   
+
+    Lifetime Engaged Users  Lifetime Post Consumers  \
+49                      84                       76   
+
+    Lifetime Post Consumptions  \
+49                          99   
+
+    Lifetime Post Impressions by people who have liked your Page  \
+49                                               2903              
+
+    Lifetime Post reach by people who like your Page  \
+49                                              1407   
+
+    Lifetime People who have liked your Page and engaged with your post  \
+49                                                 76                     
+
+    comment  like  share  Total Interactions  \
+49        1  12.0    1.0                  14   
+
+    Lifetime Engaged Users/Lifetime Post Total Reach  
+49                                          0.054688  
+--------------------Status_rows-------------------
+
+                                                       Max     Mean  Median  \
+Page total likes                                    139441   132647  135713   
+Type                                                     -        -       -   
+Category                                                 -        -       -   
+Post Month                                               -        -       -   
+Post Weekday                                             -        -       -   
+Post Hour                                                -        -       -   
+Paid                                                     -        -       -   
+Lifetime Post Total Reach                            31136  13078.9   11096   
+Lifetime Post Total Impressions                      59964  24244.5   20849   
+Lifetime Engaged Users                                6164  2040.22    1701   
+Lifetime Post Consumers                               5934  1949.56    1599   
+Lifetime Post Consumptions                            9237  2838.87    2201   
+Lifetime Post Impressions by people who have li...   37849  18664.3   17502   
+Lifetime Post reach by people who like your Page     21352  9908.58    8980   
+Lifetime People who have liked your Page and en...    4376  1719.84    1604   
+comment                                                 60  8.91111       4   
+like                                                   859  176.711     150   
+share                                                  123  31.4222      28   
+Total Interactions                                    1009  217.044     186   
+
+                                                       Min    Mode  
+Page total likes                                    104070  139441  
+Type                                                     -  Status  
+Category                                                 -       2  
+Post Month                                               -      12  
+Post Weekday                                             -       5  
+Post Hour                                                -      10  
+Paid                                                     -       0  
+Lifetime Post Total Reach                             3930       -  
+Lifetime Post Total Impressions                       7509       -  
+Lifetime Engaged Users                                 128       -  
+Lifetime Post Consumers                                 86       -  
+Lifetime Post Consumptions                             112    1692  
+Lifetime Post Impressions by people who have li...    5009       -  
+Lifetime Post reach by people who like your Page      2410       -  
+Lifetime People who have liked your Page and en...     101       -  
+comment                                                  0       2  
+like                                                    13      86  
+share                                                    1       1  
+Total Interactions                                      17     117   
+
+Most popular object in set:
+
+    Page total likes    Type  Category  Post Month  Post Weekday  Post Hour  \
+38            138895  Status         2          12             7          9   
+
+    Paid  Lifetime Post Total Reach  Lifetime Post Total Impressions  \
+38   0.0                      17576                            33058   
+
+    Lifetime Engaged Users  Lifetime Post Consumers  \
+38                    5352                     5202   
+
+    Lifetime Post Consumptions  \
+38                        6547   
+
+    Lifetime Post Impressions by people who have liked your Page  \
+38                                              23135              
+
+    Lifetime Post reach by people who like your Page  \
+38                                             11792   
+
+    Lifetime People who have liked your Page and engaged with your post  \
+38                                               4104                     
+
+    comment   like  share  Total Interactions  \
+38       11  227.0   31.0                 269   
+
+    Lifetime Engaged Users/Lifetime Post Total Reach  
+38                                          0.304506  
+--------------------Video_rows-------------------
+
+                                                       Max     Mean  Median  \
+Page total likes                                    138895   135015  137893   
+Type                                                     -        -       -   
+Category                                                 -        -       -   
+Post Month                                               -        -       -   
+Post Weekday                                             -        -       -   
+Post Hour                                                -        -       -   
+Paid                                                     -        -       -   
+Lifetime Post Total Reach                           139008  51205.7   30624   
+Lifetime Post Total Impressions                     277100   102622   56950   
+Lifetime Engaged Users                                3872     1707    1779   
+Lifetime Post Consumers                               3822  1584.71    1643   
+Lifetime Post Consumptions                            7327  2600.14    2331   
+Lifetime Post Impressions by people who have li...  107502  43149.9   30131   
+Lifetime Post reach by people who like your Page     38720  17386.3   14112   
+Lifetime People who have liked your Page and en...    2218  979.429     885   
+comment                                                 23  12.2857      17   
+like                                                   449  231.429     204   
+share                                                  121  52.1429      44   
+Total Interactions                                     550  295.857     271   
+
+                                                       Min    Mode  
+Page total likes                                    126424  137893  
+Type                                                     -   Video  
+Category                                                 -       1  
+Post Month                                               -      11  
+Post Weekday                                             -       2  
+Post Hour                                                -      11  
+Paid                                                     -       1  
+Lifetime Post Total Reach                            13544       -  
+Lifetime Post Total Impressions                      30235       -  
+Lifetime Engaged Users                                 459       -  
+Lifetime Post Consumers                                411       -  
+Lifetime Post Consumptions                             539       -  
+Lifetime Post Impressions by people who have li...   21436       -  
+Lifetime Post reach by people who like your Page      9568       -  
+Lifetime People who have liked your Page and en...     363       -  
+comment                                                  2       2  
+like                                                    65       -  
+share                                                   13      13  
+Total Interactions                                      81       -   
+
+Most popular object in set:
+
+     Page total likes   Type  Category  Post Month  Post Weekday  Post Hour  \
+243            130791  Video         1           7             3         11   
+
+     Paid  Lifetime Post Total Reach  Lifetime Post Total Impressions  \
+243   1.0                      21872                            40413   
+
+     Lifetime Engaged Users  Lifetime Post Consumers  \
+243                    3872                     3822   
+
+     Lifetime Post Consumptions  \
+243                        7327   
+
+     Lifetime Post Impressions by people who have liked your Page  \
+243                                              24667              
+
+     Lifetime Post reach by people who like your Page  \
+243                                             12920   
+
+     Lifetime People who have liked your Page and engaged with your post  \
+243                                               2218                     
+
+     comment   like  share  Total Interactions  \
+243       18  315.0   76.0                 409   
+
+     Lifetime Engaged Users/Lifetime Post Total Reach  
+243                                           0.17703  
