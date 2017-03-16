@@ -1,17 +1,18 @@
 import pandas as pd
-
 import os
 PATH = os.getcwd()
 
 
-def handler(dataset, csv_name):
+def handler(dataset, csv_name): #функция-обработчик таблицы
+    #создаются списки для статистик по каждому показателю в таблице
     Mean = []
     Min = []
     Max = []
     Median = []
     Mode = []
+    #обрабатывается каждое поле в таблице
     for column in dataset.columns:
-        if column in Exclude:
+        if column in Exclude: #для полей с качественными показателями расчитывается только мода
             Mean.append('-')
             Min.append('-')
             Max.append('-')
@@ -22,32 +23,44 @@ def handler(dataset, csv_name):
             Min.append(float(dataset[column].min()))
             Max.append(float(dataset[column].max()))
             Median.append(float(dataset[column].median()))
-            try:
+            try: #по сути мода в количественных данных не имеет такого значения, из-за низкой частоты элементов
                 Mode.append(dataset[column].mode()[0])
             except:
                 Mode.append('-')
-    
+    #для удобства создается сводная таблица статистики...
     stat_frame = pd.DataFrame(
         {'Mean': Mean, 'Max': Max, 'Min': Min, 'Median': Median, 'Mode': Mode},
     index=dataset.columns)
 
     
-
+    #... которая сохраняется в формате csv в analysis/
     stat_frame.to_csv('%s/analysis/%s.csv' % (PATH, csv_name))
     print('--------------------%s-------------------\n' % csv_name)
     print(stat_frame, '\n')
 
     '''Для определения наиболее популярного объекта в выборке целесообразно
 рассмотреть показатель "Lifetime Engaged Users/Lifetime Post Total Reach",
-который говорит о том, какая доля от охвата поста кликнула его.'''
+который говорит о том, какая доля от охвата поста кликнула его,
+или "Total Interactions/Lifetime Post Total Reach", который говорит о доле взоимодействующих с контентом
+пользователей в охвата поста.'''
 
-    print('Most popular object in set:\n')
-    dataset.loc[:, 'Lifetime Engaged Users/Lifetime Post Total Reach'] = \
-    dataset['Lifetime Engaged Users']/dataset['Lifetime Post Total Reach']
-    rate = dataset.columns[-1]
-    most_popular = dataset[dataset[rate] == dataset[rate].max()]
+    #функция определена ниже
+    most_popular_by('Lifetime Engaged Users', dataset, csv_name)
+    most_popular_by('Total Interactions', dataset, csv_name)
+
+    
+def most_popular_by(by, dataset, csv_name):    
+    print('Most popular object in set by %s:\n' % by)
+    dataset.loc[:, '%s/Lifetime Post Total Reach' % by] = \
+    dataset[by]/dataset['Lifetime Post Total Reach']
+    #во избежание ошибочной интерпретации показателя, необходимо, чтобы охват объекта был на высоком уровне (выше среднего)
+    dataset_ = dataset[dataset['Lifetime Post Total Reach'] > dataset['Lifetime Post Total Reach'].mean()]
+    rate = dataset_.columns[-1]
+    most_popular = dataset_[dataset_[rate] == dataset_[rate].max()]
     print(most_popular)
+    most_popular.to_csv('%s/analysis/%s_most_popular_by_%s.csv' % (PATH, csv_name, by))
 
+#во избежание конфликтов копирования таблиц нужна функция, создающая нужную выборку по полю Type
 def new_df(Type):
     global Exclude
     dataset = pd.read_csv('%s/dataset_Facebook.csv' % PATH, sep = ';')
@@ -58,14 +71,14 @@ def new_df(Type):
     else:
         return dataset
     
-
+#создаем все необходимые таблицы
 Main = new_df('')
 Photo = new_df('Photo')
 Link = new_df('Link')
 Status = new_df('Status')
 Video = new_df('Video')        
 
-
+#производим все необходимые расчеты
 handler(Main, 'All_rows')
 handler(Photo, 'Photo_rows')
 handler(Link, 'Link_rows')
