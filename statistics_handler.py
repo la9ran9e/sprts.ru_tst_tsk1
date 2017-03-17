@@ -72,16 +72,10 @@ def new_df(Type):
     else:
         return dataset
     
-#создаем все необходимые таблицы
-Main = new_df('')
-Photo = new_df('Photo')
-Link = new_df('Link')
-Status = new_df('Status')
-Video = new_df('Video')        
-
+#создаем все необходимые таблицы и
 #производим все необходимые расчеты
-handler(Main, 'All_rows')
-handler(Photo, 'Photo_rows')
-handler(Link, 'Link_rows')
-handler(Status, 'Status_rows')
-handler(Video, 'Video_rows')
+handler(new_df(''), 'All_rows')
+handler(new_df('Photo'), 'Photo_rows')
+handler(new_df('Link'), 'Link_rows')
+handler(new_df('Status'), 'Status_rows')
+handler(new_df('Video'), 'Video_rows')
